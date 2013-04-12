@@ -1,10 +1,11 @@
+package neu;
+
 import generated.KType;
 import generated.ObjectFactory;
 import generated.RType;
 import generated.RezepteType;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -15,7 +16,6 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.transform.stream.StreamSource;
 
-package src
 
 
 public class Main {
